@@ -1,58 +1,28 @@
 # AI-Companion
 
+## Project Structure
 
+```
 ai-companion/
-├── hardware/              
-│   ├── 3d-models/        
-│   │   ├── body/
-│   │   ├── joints/
-│   │   └── shell/
-│   │
-│   ├── circuits/         
-│   │   ├── main-board/
-│   │   ├── sensors/
-│   │   └── power/
-│   │
-│   └── components/       
-│       ├── bom.xlsx
-│       └── datasheets/
+├── hardware/              # 硬件设计文件
+│   ├── 3d-models/        # 3D 打印模型
+│   ├── circuits/         # 电路设计
+│   └── components/       # 组件清单
 │
-├── firmware/             
+├── firmware/             # 嵌入式系统代码
 │   ├── main/
-│   │   ├── core/
-│   │   ├── drivers/
-│   │   └── system/
-│   │
 │   └── modules/
-│       ├── audio/
-│       ├── motion/
-│       └── communication/
 │
-├── cloud/                
+├── cloud/                # 云服务后端
 │   ├── api/
-│   │   ├── routes/
-│   │   ├── controllers/
-│   │   └── models/
-│   │
 │   └── ai-services/
-│       ├── nlp/
-│       ├── vision/
-│       └── learning/
 │
-├── mobile-app/          
+├── mobile-app/          # 配套手机应用
 │   ├── ios/
-│   │   ├── src/
-│   │   └── assets/
-│   │
 │   └── android/
-│       ├── app/
-│       └── resources/
 │
-└── docs/                
-    ├── architecture/
-    ├── api/
-    ├── guides/
-    └── specifications/
+└── docs/                # 文档
+```
 
 ## AI-Companion 项目简介
 
